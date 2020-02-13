@@ -1,0 +1,166 @@
+.top-masterpass 
+	background: url(../img/bg-masterpass.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 350px;
+	position: relative; 
+	color: #fff;
+	font-family: 'Montserrat SemiBold';
+	.page-title
+		font-size: 24px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		line-height: 35px;
+	.header-descr-wr
+		bottom: 60px;
+		position: absolute;
+		.header-descr
+			font-size: 14px;
+			color: #f15a40;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+			margin-bottom: 0px;
+
+.masterpass-wr
+	.section-title
+		font-size: 18px;
+		text-transform: unset;
+		letter-spacing: 0px;
+		margin-left: 0;
+		margin-bottom: 25px;
+		margin-top: 30px;
+	.masterpass-top
+		.masterpass-top-img img
+			@media only screen and (max-width: 991px)
+				margin-bottom: 20px
+				max-width: 100%;
+		p
+			line-height: 20px;
+			margin-top: 15px;
+		.section-title
+			margin-bottom: 0
+		.mp-list
+			ul
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+				li
+					line-height: 20px;
+					margin-bottom: 25px;
+					padding-left: 40px;
+					position: relative;
+					&:after
+						content: '';
+						position: absolute;
+						width: 30px;
+						height: 3px;
+						left: 0;
+						top: 10px;
+						background: #f15a40;
+
+	.examples-mp
+		h6
+			font-family: 'OpenSans';
+			font-size: 16px;
+		.bg-img
+			padding: 20px 15px;
+			background: url(../img/img-bg.png) center center no-repeat;
+			background-size: cover;
+			height: calc(100% - 27px);
+			img
+				position: relative;
+				top: 50%;
+				transform: translate(0, -50%);
+				@media only screen and (max-width: 1199px)
+					width: 100%
+		& > div
+			margin-bottom: 25px;
+
+	.qr-bar
+		.qr-bar-text
+			margin: 15px 0 25px;
+		.img-step-wr
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			margin: 50px 0 40px;
+			padding: 0 30px;
+			.img-step-dashed
+				border-bottom: 1px dashed #000;
+				margin: 0 10px;
+				max-width: 100%;
+				width: 30%;
+		.qr-img-wr
+			position: relative;
+			.qr-img-descr
+				position: absolute;
+				line-height: 45px;
+				background-color: #f15a40;
+				color: #fff;
+				padding: 0 15px;
+				top: 15px;
+				left: -30px;
+				border-radius: 1px;
+				@media only screen and (max-width: 1199px)
+					left: -15px
+			img
+				@media only screen and (max-width: 1199px)
+					width: 100%
+
+.one-click
+	background-color: #2c363f;
+	color: #fff;
+	padding: 20px 0;
+	margin-bottom: 0;
+	.one-click-top
+		@media only screen and (max-width: 991px)
+			margin-bottom: 25px
+	i
+		border: 2px solid #fff;
+		border-radius: 50%;
+		width: 10px;
+		height: 10px;
+		display: block;
+		margin: 25px auto;
+		@media only screen and (max-width: 767px)
+			display: none
+		&:after
+			content: '';
+			border: 1px solid #fff;
+			position: absolute;
+			width: 96%;
+			top: 29px;
+			margin-left: 4px;
+			@media only screen and (min-width: 768px)  and (max-width: 1200px) 
+				width: 95%; 
+	p
+		margin: 0;
+		line-height: 20px;
+		font-size: 14px;
+	.one-click-descr
+		@media only screen and (max-width: 767px)
+			margin: 5px 0 10px
+	.section-title
+		font-size: 18px;
+		text-transform: unset;
+		letter-spacing: 0px;
+		margin-left: 0;
+		margin-bottom: 25px;
+		margin-top: 30px;
+		color: #fff;
+		&:after
+			display: none;
+	.one-click-form-wr
+		padding: 30px;
+		background-color: #fff;
+		h5
+			font-size: 16px;
+			color: #333;
+			text-transform: uppercase;
+			margin-bottom: 15px;
+		.form-control
+			border-radius: 2px;
+			margin-bottom: 15px;
+			font-size: 14px;
+			&:focus
+				box-shadow: none;

@@ -1,0 +1,161 @@
+body 
+	min-width: 320px
+	margin: 0
+	font-family: 'OpenSans'
+	color: #333
+	overflow-x: hidden
+    
+section
+	margin-bottom: 50px
+	
+	&.top
+		margin-bottom: 0
+		height: 350px
+		position: relative
+		color: #fff
+		font-family: 'Montserrat SemiBold'
+		@media only screen and (max-width: 767px)
+			height: 250px
+
+		&.bg-sm1
+			@media only screen and (max-width: 767px)
+				background: url(../img/top-bg-sm1.png) center center no-repeat !important
+				-webkit-background-size: cover !important
+				background-size: cover !important
+
+		&.bg-sm2
+			@media only screen and (max-width: 767px)
+				background: url(../img/top-bg-sm2.png) center center no-repeat !important
+				-webkit-background-size: cover !important
+				background-size: cover !important
+
+		.bg-sm-i
+			position: absolute
+			right: 20px
+			top: 55%
+			transform: translate(0, -50%)
+
+		.page-title
+			font-size: 24px
+			letter-spacing: 3px
+			text-transform: uppercase
+			line-height: 35px
+			@media only screen and (max-width: 991px)
+				max-width: 300px
+			@media only screen and (max-width: 767px)
+				font-size: 18px
+				margin-bottom: 0
+				line-height: 26px
+
+		.header-descr-wr
+			bottom: 60px
+			position: absolute
+			z-index: 2
+			@media only screen and (max-width: 767px)
+				bottom: 20px
+				left: 20px
+
+			.header-descr
+				font-size: 14px
+				color: #f15a40
+				letter-spacing: 3px
+				text-transform: uppercase
+				margin-bottom: 0px
+
+.section-title
+	font-size: 22px
+	font-family: 'Montserrat SemiBold'
+	position: relative
+	display: inline-block
+	text-transform: uppercase
+	letter-spacing: 3px
+	margin-left: 15px
+	margin-bottom: 40px
+
+	&::after
+		content: ''
+		position: absolute
+		width: 55px
+		height: 3px
+		right: -65px
+		top: 10px
+		background: #f15a40
+		@media only screen and (max-width: 767px)
+			display: none
+
+h1,h2,h3,h4,h5,h6, strong
+	font-family: 'Montserrat SemiBold'
+	font-weight: normal
+
+ul
+	list-style-type: none
+	
+.btn-app
+	background: #f15a40 !important
+	color: #fff !important
+	border-radius: 2px
+	margin-top: 10px
+	padding: 6px 25px
+	text-align: center
+	&:focus
+		box-shadow: none
+	
+	&:hover
+		background-color: #c74a33 !important
+		text-decoration: none
+
+p 
+	font-size: 16px
+	line-height: 20px
+
+img
+	max-width: 100%
+
+.breadcrumb-wr
+	margin-bottom: 25px
+
+	.breadcrumb
+		background-color: transparent
+		margin-bottom: 0
+		border-bottom: 1px solid #f2f2f2
+		position: relative
+		font-size: 14px
+
+		&:before
+			content: ''
+			position: absolute
+			left: -50px
+			top: 0
+			width: 50px
+			height: 46px
+			background-color: #2c363f
+
+		a 
+			color: #949699 !important
+
+			&:hover
+				color: #f15a40!important
+				text-decoration: none
+
+		.breadcrumb-item+.breadcrumb-item::before 
+			content: "›"
+			display: inline-block
+			padding-right: .5rem
+			color: #949699
+			line-height: 21px
+			vertical-align: top
+
+.d-visible
+	display: none !important
+
+@media only screen and (max-width: 767px)
+	.d-hidden
+		display: none !important
+
+	.d-visible
+		display: block !important
+
+	.breadcrumb-wr 
+		.breadcrumb
+			&::before
+				display: none

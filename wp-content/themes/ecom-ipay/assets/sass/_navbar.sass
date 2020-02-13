@@ -1,0 +1,157 @@
+.dropdown-toggle::after 
+  display: inline-block;
+  width: 9px;
+  height: 6px;
+  position: absolute;
+  right: 9px;
+  top: calc(50% - 3px);
+  vertical-align: middle;
+  background: url(../img/arrow-dropdown.png) 0 0 no-repeat;
+  content: "";
+  border: 0 !important
+.dropdown.show .dropdown-toggle::after 
+  background: url(../img/arrow-dropdown-hover.png) 0 0 no-repeat
+.nav-item.dropdown:hover .dropdown-toggle::after 
+  background: url(../img/arrow-dropdown-hover.png) 0 0 no-repeat
+
+.navbar-wr
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  font-family: 'Montserrat SemiBold';
+  font-size: 14px;
+  min-width: 320px;
+  .navbar
+    width: 100%;
+    justify-content: space-between;
+    .navbar-collapse
+      @media only screen and (max-width: 991px)
+        background: #343a40;
+      .navbar-nav
+        @media only screen and (max-width: 991px)
+          padding: 25px 15px;
+      .dropdown-menu
+        @media only screen and (max-width: 991px)
+          background-color: #343a40;
+          border: 0
+    .navbar-mob-wr
+      display: none
+      @media only screen and (max-width: 991px)
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+  .bg-dark
+    background: #2c363f
+
+  .navbar-brand
+    color: #fff !important;
+    font-family: 'OpenSans-Semibold';
+    font-size: 14px;
+    position: relative
+    @media only screen and (max-width: 767px)
+      padding-bottom: 12px
+    span
+      width: 75px;
+      display: inline-block;
+      white-space: normal;
+      line-height: 17px;
+      margin-right: 10px;
+      @media only screen and (max-width: 767px)
+        white-space: nowrap
+        position: absolute;
+        left: 0;
+        top: 27px;
+        font-size: 10px;
+ 
+    & > *
+      vertical-align: top;
+  .visible-mob
+    @media only screen and (min-width: 992px)
+      display: none;
+  .hidden-mob
+    @media only screen and (max-width: 991px)
+      display: none;
+  .navbar-light .navbar-toggler
+    border: 0
+    padding: 0 !important
+  .navbar-light .navbar-toggler-icon
+    background: url(../img/toggler-icon.png) center center no-repeat
+ 
+  .nav-lang-phone
+    .dropdown-menu
+      min-width: 40px;
+    @media only screen and (max-width: 991px)
+      margin-right: 20px
+   
+    .pnone .nav-link
+      border: 1px solid #fff;
+      border-radius: 25px;
+      margin-left: 15px;
+      position: relative;
+      padding-left: 35px;
+      padding-right: 15px;
+      @media only screen and (max-width: 991px)
+        margin-left: 0
+      @media only screen and (max-width: 767px)
+        margin-left: 0
+        font-size: 10px;
+        padding-left: 22px;
+        padding-right: 10px;
+      &:hover
+        border: 1px solid #f15a40;
+   
+      .fa
+        font-size: 17px;
+        position: absolute;
+        left: 15px;
+        top: 10px;
+        @media only screen and (max-width: 767px)
+          font-size: 14px
+          left: 8px;
+   
+ 
+  .navbar-nav .nav-link
+    color: #fff !important;
+    text-transform: uppercase;
+    position: relative;
+    @media only screen and (max-width: 1200px)
+      font-size: 12px
+    &.dropdown-toggle
+      padding-right: 25px;
+    &:hover
+      color: #f15a40 !important;
+ 
+  .navbar-nav .show .nav-link
+    color: #f15a40 !important;
+.dropdown-item 
+  padding: 0 15px;
+  clear: both;
+  color: #333;
+  line-height: 47px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Montserrat SemiBold';
+  @media only screen and (max-width: 991px)
+    font-size: 12px
+    line-height: 36px
+    color: #fff;
+  &:hover
+    color: #fff;
+    background-color: #f15a40;
+
+@media (min-width: 992px)
+  .navbar-expand-lg 
+    justify-content: space-between;
+    width: 100%;
+    padding: .5rem 0;
+  .navbar-expand-lg .navbar-collapse
+    justify-content: center;
+  .navbar-expand-lg .navbar-nav .dropdown-menu
+    padding: 0;
+    -webkit-box-shadow: 0px 0px 1px 0px #8e8e8e;
+    -moz-box-shadow: 0px 0px 1px 0px #8e8e8e;
+    box-shadow: 0px 0px 1px 0px #8e8e8e;
+    border-radius: 2px;

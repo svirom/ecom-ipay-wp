@@ -1,0 +1,306 @@
+section
+  &.top
+    &.financial-header
+      @media only screen and (max-width: 767px)
+        height: 300px
+
+      .page-title
+        font-size: 24px
+
+  &.financial-main
+    margin-bottom: 0
+
+.financial-header
+  background: url(../img/financial/bg-financial.jpg) center center no-repeat
+
+  .container
+    height: 100%
+
+    .row
+      height: 100%
+
+  .financial-image
+    background: url(../img/financial/financial-header.png) right 90px bottom 0 no-repeat
+    background-size: auto
+
+    @media only screen and (max-width: 767px)
+      background-position: right 0 center
+      background-size: auto 200px
+
+.financial-main
+  h2
+    font-family: 'Montserrat SemiBold', sans-serif
+    font-style: normal
+    font-size: 24px
+    line-height: 1.17
+    color: #333333
+
+    @media only screen and (max-width: 767px)
+      font-size: 20px
+
+    &.heading-line
+      display: inline-block
+      position: relative
+
+      &::after
+        position: absolute
+        content: ''
+        width: 76px
+        bottom: 12px
+        margin-left: 12px
+        border-top: 3px solid #F15A40
+
+        @media only screen and (max-width: 1199px)
+          width: 56px
+
+        @media only screen and (max-width: 767px)
+          display: none
+
+  p
+    font-family: 'Open Sans', sans-serif
+    line-height: 1.17
+
+.financial-top
+  padding: 40px 60px 20px 90px
+  background-color: #F5F5F5
+
+  @media only screen and (max-width: 767px)
+    padding: 30px 15px 20px
+
+  .financial-top-img
+    padding-bottom: 20px
+  
+  p
+    font-size: 20px
+
+    @media only screen and (max-width: 767px)
+      font-size: 18px
+
+.financial-advantages
+  padding-top: 60px
+  padding-bottom: 30px
+
+  @media only screen and (max-width: 767px)
+    padding-top: 30px
+
+  .owl-carousel
+    .owl-item
+      img
+        margin-bottom: 20px
+
+    .owl-dots
+      margin-top: 20px
+
+.financial-banks
+  padding-top: 60px
+  background-color: #F5F5F5
+
+  @media only screen and (max-width: 767px)
+    padding-top: 40px
+
+  h2
+    padding-right: 16px
+    color: #F15A40
+
+  .owl-carousel
+    .owl-dots
+      margin-top: 20px
+
+.financial-list
+  padding-left: 0
+
+  li
+    position: relative
+    margin-bottom: 24px
+    padding-left: 50px
+  
+    &::before
+      content: ''
+      position: absolute
+      width: 35px
+      height: 3px
+      left: 0
+      top: 10px
+      background: #f15a40
+
+.financial-banks-list
+  .financial-list
+    padding-left: 40px
+
+    @media only screen and (max-width: 991px)
+      padding-left: 0
+
+    li
+      padding-left: 70px
+
+      @media only screen and (max-width: 767px)
+        padding-left: 50px
+
+.financial-credit
+  padding-top: 80px
+  padding-bottom: 60px
+
+  @media only screen and (max-width: 767px)
+    padding-top: 40px
+
+  h2
+    &.heading-line
+      &::after
+        width: 44px
+
+  ul
+    padding-left: 0
+    padding-top: 40px
+
+    @media only screen and (max-width: 767px)
+      padding-top: 30px
+
+    li
+      position: relative
+      margin-bottom: 40px
+      padding-left: 90px
+
+      @media only screen and (max-width: 767px)
+        padding-left: 70px
+
+      &::before
+        position: absolute
+        left: 10px
+        top: 6px
+
+        @media only screen and (max-width: 767px)
+          left: 0
+
+      &:nth-child(1)::before
+        content: url(../img/financial/credit-icon-1.png)
+      &:nth-child(2)::before
+        content: url(../img/financial/credit-icon-2.png)
+      &:nth-child(3)::before
+        content: url(../img/financial/credit-icon-3.png)
+      &:nth-child(4)::before
+        content: url(../img/financial/credit-icon-4.png)
+
+.btn-financial
+  font-family: 'Montserrat SemiBold', sans-serif
+  padding: 11px 34px
+  border-radius: 0
+  color: #ffffff
+  font-weight: 600
+  background-color: #F15A40
+
+  &:hover
+    color: #ffffff
+    background-color: #c74a33
+
+.financial-repayment
+  padding-top: 60px
+  padding-bottom: 60px
+  color: #ffffff
+  background-color: #2C363F
+
+  @media only screen and (max-width: 767px)
+    padding-top: 40px
+
+  h2
+    color: #ffffff
+
+  .financial-list
+    padding-top: 40px
+
+    @media only screen and (max-width: 767px)
+      padding-top: 30px
+
+  .btn-financial
+    flex: 0 0 23%
+    margin-right: 1%
+    margin-left: 1%
+    border-radius: 3px
+    background-color: rgba(255, 255, 255, 0.3)
+
+    &:hover
+      background-color: rgba(255, 255, 255, 0.2)
+
+    @media only screen and (max-width: 991px)
+      flex-basis: 48%
+
+    @media only screen and (max-width: 767px)
+      flex-basis: 100%
+      margin-right: 0
+      margin-left: 0
+
+.financial-features
+  padding-top: 80px
+  padding-bottom: 160px
+  background-color: #F5F5F5
+
+  @media only screen and (max-width: 767px)
+    padding-top: 40px
+
+  .card
+    margin-bottom: 26px
+    padding: 15px 15px 15px 25px
+    border: 0
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)
+
+  .card-img-wrapper
+    flex: 0 0 66px
+    padding: 5px
+    border-radius: 5px
+    background: #F5F5F5
+
+.financial-features-img
+  margin-top: -70px
+
+  @media only screen and (max-width: 991px)
+    margin-top: -20px
+
+.financial-tolerance
+  margin-top: -120px  
+  padding: 50px 0 60px 60px
+  color: #ffffff
+  background-image: url('../img/financial/financial-tolerance.png'), url('../img/financial/bg-tolerance.jpg')
+  background-repeat: no-repeat, no-repeat
+  background-position: right bottom, center top
+  background-size: auto, cover
+
+  @media only screen and (max-width: 991px)
+    padding-right: 40px
+    background: url('../img/financial/bg-tolerance.jpg') center top no-repeat
+    background-size: cover
+
+  @media only screen and (max-width: 767px)
+    padding: 50px 15px 30px
+
+  h2
+    padding-right: 40px
+    color: #ffffff
+
+    @media only screen and (max-width: 767px)
+      padding-right: 0
+
+  .financial-list 
+    li
+      &::before
+        background: #ffffff
+
+.financial-connect
+  padding-top: 60px
+  padding-bottom: 60px
+
+  @media only screen and (max-width: 767px)
+    padding-top: 30px
+    padding-bottom: 20px
+
+.financial-connect-text
+  padding-top: 64px
+
+  @media only screen and (max-width: 991px)
+    padding-top: 20px
+
+  .text-main-color
+    color: #F15A40
+
+
+
+  
+      

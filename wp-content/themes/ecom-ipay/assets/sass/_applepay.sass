@@ -1,0 +1,177 @@
+section
+  &.top
+    &.applepay-header
+      @media only screen and (max-width: 767px)
+        height: 300px
+
+      .page-title
+        font-size: 24px
+
+  &.applepay-main
+    margin-bottom: 0
+
+.applepay-header
+  background: url(../img/bg-masterpass.jpg) left bottom no-repeat
+  background-size: cover
+
+  .container
+    height: 100%
+
+    .row
+      height: 100%
+
+  .applepay-image
+    background: url(../img/applepay/applepay-top.png) right 90px bottom 25px no-repeat
+    background-size: auto
+
+    @media only screen and (max-width: 767px)
+      background-position: right 40px center
+      background-size: auto 170px
+
+.applepay-main
+  h2
+    font-family: 'Montserrat', sans-serif
+    font-size: 36px
+    line-height: 1.2
+    text-align: center
+    color: #2E373F
+
+    @media only screen and (max-width: 991px)
+      font-size: 24px
+
+.applepay-top
+  color: #2E373F
+  
+  h2
+    font-family: 'Montserrat SemiBold', sans-serif
+    font-size: 20px
+    text-align: left
+
+  p
+    margin-top: 1rem
+    font-size: 16px
+    line-height: 1.625
+
+.applepay-top-img
+  margin-top: -10px
+  text-align: right
+
+  @media only screen and (max-width: 991px)
+    max-width: 150px
+    margin-top: 10px
+    text-align: left
+
+.payment-apple-wrapper
+  margin-top: 40px
+  padding: 60px 0 50px
+  background-color: #F5F5F5
+
+  @media only screen and (max-width: 767px)
+    margin-top: 20px
+    padding: 40px 0 20px
+
+.features-apple
+  padding-top: 40px
+
+  @media only screen and (max-width: 767px)
+    padding-top: 30px
+
+  ol
+    padding-left: 0
+    font-size: 18px
+    line-height: 1.2
+    color: #9DAFBD
+    list-style: none
+    counter-reset: my-counter
+
+    @media only screen and (max-width: 767px)
+      font-size: 16px
+    
+    li
+      position: relative
+      margin-bottom: 30px
+      padding-left: 40px
+      counter-increment: my-counter
+      
+      &::before
+        position: absolute
+        content: counter(my-counter)
+        font-size: 40px
+        font-weight: bold
+        color: #F15A40
+        top: 50%
+        left: 0
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        transform: translateY(-50%)
+
+
+.advantages-apple-wrapper
+  padding: 60px 0
+
+  @media only screen and (max-width: 767px)
+    padding: 40px 0 20px
+
+.advantages-apple
+  position: relative
+  padding-top: 40px
+
+  @media only screen and (max-width: 767px)
+    padding-top: 20px
+
+  .advantages-img
+    position: relative
+    z-index: 2
+
+    &::after
+      display: block
+      content: ''
+      position: absolute
+      width: 64px
+      height: 64px
+      left: -25px
+      bottom: -25px
+      z-index: -1
+      background-color: #F15A40
+
+      @media only screen and (max-width: 1199px)
+        bottom: 9px
+
+      @media only screen and (max-width: 991px)
+        display: none
+
+  .advantages-list
+    background-color: #ffffff
+
+    @media only screen and (max-width: 767px)
+      padding-top: 30px
+
+    ul
+      padding-left: 24px
+
+      @media only screen and (max-width: 767px)
+        padding-left: 0
+
+      li
+        position: relative
+        margin-bottom: 24px
+        padding-left: 30px
+        font-size: 16px
+        line-height: 1.625
+        color: #2C363F
+
+        @media only screen and (max-width: 991px)
+          font-size: 14px
+
+        &::after
+          display: block
+          content: ''
+          position: absolute
+          width: 22px
+          height: 3px
+          left: 0
+          top: 10px
+          background: #f15a40
+
+    

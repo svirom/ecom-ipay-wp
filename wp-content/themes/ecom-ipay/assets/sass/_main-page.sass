@@ -1,0 +1,629 @@
+.top-section
+	background: url(../img/bg-top.png) center center no-repeat
+	-webkit-background-size: cover
+	background-size: cover
+	height: 700px!important
+	position: relative
+	color: #fff
+	font-family: 'Montserrat SemiBold'
+	
+	@media only screen and (max-width: 991px)
+		background: url(../img/bg-top-768.png) center center no-repeat
+		-webkit-background-size: cover
+		background-size: cover
+		height: 350px!important
+
+	@media only screen and (max-width: 767px)
+		background: url(../img/bg-top-768.png) center center no-repeat
+		-webkit-background-size: cover
+		background-size: cover
+		background: #343a40!important
+		height: 100%!important
+	
+	h1
+		margin-top: 150px
+		font-size: 36px
+		text-transform: uppercase
+		line-height: 35px
+		@media only screen and (max-width: 767px)
+			margin-top: 80px
+			font-size: 24px
+		span
+			font-size: 24px
+			text-transform: initial
+
+	.top-descr
+		margin-top: 15px
+		font-size: 16px
+		font-family: 'OpenSans'
+
+  .header-icons
+		@media only screen and (max-width: 767px)
+			display: flex
+			width: calc(100% - 15px)
+			max-width: 540px
+			bottom: 10px
+			margin: 20px 0 35px
+	.header-icons-mob
+		display: none
+		@media only screen and (max-width: 767px)
+			display: flex !important
+			align-items: center
+			justify-content: space-between
+	img
+		margin: 15px 40px 15px 0
+		@media only screen and (max-width: 767px)
+			margin: 15px 0
+
+.section-title-wr
+	margin: 25px -15px 35px
+	p
+		font-size: 16px
+
+.products-links
+	margin: 0 -7px !important
+	& > div
+		padding: 0 7px !important
+	.products-links-wr
+		@media only screen and (max-width: 991px)
+			background-image: url(../img/bg-mob.png)
+			background-size: cover;
+	a
+		display: block
+		position: relative
+		height: 250px
+		background-position: center center
+		background-repeat: no-repeat
+		margin-bottom: 15px
+		color: #fff !important
+		background-size: cover
+		h5
+			font-size: 22px
+			text-transform: uppercase
+			font-family: 'Montserrat SemiBold'
+			padding: 15px 0 0 15px
+			letter-spacing: 3px;
+		&:hover
+			text-decoration: none !important
+			color: #fff !important
+			.more-link
+				color: #f15a40
+				i
+					background:url(../img/arrow-more-orange.png) 0 0 no-repeat
+		.more-link
+			position: absolute
+			bottom: 10px
+			right: 15px
+			line-height: 22px
+			i
+				width: 22px
+				height: 22px
+				display: inline-block
+				margin-left: 10px
+				vertical-align: top
+				background:url(../img/arrow-more.png) 0 0 no-repeat
+	.acquaring
+		background-image: url(../img/acquaring.png)
+		@media only screen and (max-width: 991px)
+			background: url(../img/acquaring-sm1.png) center 80px no-repeat
+	.р2р
+		background-image: url(../img/p2p.png)
+		@media only screen and (max-width: 991px)
+			background: url(../img/p2p-sm1.png) center 65px no-repeat
+			background-size: contain;
+		@media only screen and (max-width: 767px)
+			background-size: auto
+	.masterpass
+		background-image: url(../img/masterpass.png)
+		@media only screen and (max-width: 991px)
+			background: url(../img/masterpass-sm1.png) center 80px no-repeat
+	.visa-checkout
+		background-image: url(../img/visa_checkout.png)
+		@media only screen and (max-width: 991px)
+			background: url(../img/visa_checkout-sm1.png) center 80px no-repeat
+	.requisites
+		background-image: url(../img/requisites.png)
+		@media only screen and (max-width: 991px)
+			background: url(../img/requisites-sm1.png) center 80px no-repeat
+	.monego
+		background-image: url(../img/monego.png)
+		@media only screen and (max-width: 991px)
+			background: url(../img/monego-sm1.png) center 100px no-repeat
+			background-size: contain;
+		@media only screen and (max-width: 767px)
+			background-size: auto
+	.payments
+		background-image: url(../img/payments.png)
+		@media only screen and (max-width: 991px)
+			background: url(../img/payments-sm1.png) center 60px no-repeat
+
+.nav-pills 
+	&.flex-column
+		@media only screen and (max-width: 767px)
+			flex-direction: row !important
+			flex-wrap: nowrap
+			justify-content: space-between
+			margin-bottom: 40px
+	.nav-link 
+		border-radius: 0
+		display: flex
+		align-items: center
+		font-size: 16px
+		@media only screen and (max-width: 992px)
+			padding: 8px 0;
+			@media only screen and (max-width: 767px)
+				width: 70px
+				text-align: center
+		.nav-link-img-wr
+			padding-right: 30px
+			@media only screen and (max-width: 992px)
+				padding-right: 10px
+			@media only screen and (max-width: 767px)
+				padding: 0
+				margin: auto
+			@media only screen and (max-width: 767px)
+				width: 60px
+				img
+					width: 100%
+
+		p
+			color: #333
+			margin: 0
+			line-height: 18px
+			@media only screen and (max-width: 992px)
+				font-size: 14px
+				text-align: left;
+			@media only screen and (max-width: 767px)
+				display: none
+	.nav-link.active, 
+	.show>.nav-link
+		background: #2c363f
+		position: relative
+		p
+			color: #fff
+			position: relative;
+			z-index: 10;      
+		&:after
+			content: ''
+			background: #fff url(../img/arrow-active-tab.png) center center no-repeat
+			height: 100%
+			width: 22px
+			position: absolute
+			right: 0
+			top: 0
+			@media only screen and (max-width: 767px)
+				right: unset;
+				top: unset;
+				transform: rotate(90deg);
+				bottom: -41px;
+				left: 24px;
+				height: 70px
+
+.tab-content
+	.tab-pane
+		& > .row
+			align-items: center
+		h6
+			font-size: 14px
+			text-transform: uppercase
+			letter-spacing: 2px
+			color: #f15a40
+			margin: 0 0 30px
+		h5
+			font-size: 24px
+			margin: 10px 0 30px
+		p
+			text-align: justify
+		img
+			@media only screen and (max-width: 1200px)
+				width: 100%
+			@media only screen and (max-width: 992px)
+				display: none
+		.more-link
+			float: right
+			line-height: 22px
+			color: #f15a40
+			text-decoration: none
+			i
+				width: 22px
+				height: 22px
+				display: inline-block
+				margin-left: 10px
+				vertical-align: top
+				background: url("../img/arrow-more-orange.png") 0 0 no-repeat
+
+
+.services
+	background: url(../img/services-bg.png) center center no-repeat
+	-webkit-background-size: cover
+	background-size: cover
+	padding: 40px 0
+	height: 530px
+	@media only screen and (max-width: 991px)
+		height: 570px
+	@media only screen and (max-width: 767px)
+		height: 100%
+	.section-title
+		color: #fff
+		@media only screen and (max-width: 767px)
+			margin-bottom: 15px
+	.tab-content
+		@media only screen and (max-width: 767px)
+			margin-top: 10px
+	.services-icons
+		color: #fff
+		text-align: center
+		img
+			margin: 30px 0 20px
+			@media only screen and (max-width: 991px)
+				margin: 10px 0 15px
+			@media only screen and (max-width: 767px)
+				margin: 10px 0 5px
+		p
+			margin-bottom: 20px
+			position: relative
+	.row
+		align-items: center
+	.nav-tabs
+		border: 0;
+		flex-wrap: nowrap
+		position: relative
+		@media only screen and (max-width: 767px)
+			flex-wrap: wrap
+		.nav-link
+			height: 200px
+			@media only screen and (max-width: 767px)
+				height: 110px
+		.services-icons
+			width: 100% 
+			&:nth-child(4)
+				.nav-link
+					&:after
+						display: none
+		.nav-link
+			border: 0
+			position: relative
+			&:hover
+				border: 0;
+			&.active
+				border: 0;
+				background-color: transparent;
+				.circle
+					background-color: #fff
+					box-shadow: 0px 0px 0px 4px rgba(255,255,255,0.4)
+			&:after
+				content: ''
+				background: #fff
+				height: 1px
+				position: absolute
+				width: calc(100% + -9px)
+				bottom: 37px
+				left: calc(50% + 5px)
+				@media only screen and (max-width: 767px)
+					display: none
+			.circle
+				width: 10px
+				height: 10px
+				border: 1px solid #fff
+				border-radius: 50%
+				position: absolute
+				left: calc(50% - 5px)
+				bottom: 33px
+				@media only screen and (max-width: 767px)
+					bottom: 0
+
+
+	.tab-content .more-link
+		display: inline-block
+		color: #fff !important 
+		line-height: 22px
+		padding: 7px 15px
+		border-radius: 3px
+		background: rgba(255, 255, 255, 0.35) 
+		text-decoration: none
+		float: none !important
+		&:hover
+			color: #333 !important
+			background-color: #fff
+			i
+				background: url(../img/arrow-more-dark.png) 0 0 no-repeat !important
+		i
+			width: 22px
+			height: 22px
+			display: inline-block
+			margin-left: 10px
+			vertical-align: top
+			background: url(../img/arrow-more.png) 0 0 no-repeat !important
+	p
+		color: #fff
+		margin: 0 0 50px
+		line-height: 20px
+
+.security
+	.more-link
+		display: inline-block
+		line-height: 22px
+		color: #f15a40
+		text-decoration: none
+		i
+			width: 22px
+			height: 22px
+			display: inline-block
+			margin-left: 10px
+			vertical-align: top
+			background: url("../img/arrow-more-orange.png") 0 0 no-repeat
+	p
+		color: #424343
+		margin-bottom: 25px
+	.left
+		@media only screen and (max-width: 1200px)
+			margin-bottom: 20px
+		img
+			@media only screen and (max-width: 1200px)
+				width: 100%
+	.section-title
+		margin-left: 0
+	.security-bottom
+		align-items: center
+		& > div
+			margin-bottom: 15px
+		.security-bottom-img
+			@media only screen and (max-width: 767px)
+				display: -webkit-flex
+				display: -moz-flex
+				display: -ms-flex
+				display: -o-flex
+				display: flex
+				justify-content: space-between
+				align-items: center
+			img:first-child
+				margin-right: 20px
+		.cyber
+			@media only screen and (max-width: 767px)
+				height: 27px
+
+
+
+.examples
+	background-color: #f5f5f5
+	padding: 30px 0 20px
+	.section-title
+		margin-bottom: 15px
+	.carousel-item
+		text-align: center;
+		background: url("../img/desktop.png") center 0 no-repeat
+		padding-top: 35px
+		.carousel-caption
+			position: static
+			display: flex !important
+			align-items: center
+			width: 50%
+			padding: 30px 0
+			margin: auto;
+			@media only screen and (max-width: 767px)
+				flex-direction: column
+				width: 70%
+			.img-wr
+				margin-right: 30px
+				@media only screen and (max-width: 767px)
+					margin-bottom: 25px
+			p
+				color: #333
+				margin: 0
+				text-align: left
+				font-family: 'Montserrat SemiBold';
+	.carousel-indicators
+		bottom: -15px
+		li
+			background-color: #cbcbcb
+			width: 10px
+			height: 10px
+			border-radius: 50%
+			&.active
+				background-color: #f15a40
+	.carousel-control-next, .carousel-control-prev
+		top: auto
+		bottom: 25px
+		opacity: 1
+	.carousel-control-prev:hover
+		.carousel-control-prev-icon 
+			background-image: url(../img/arrow-slider-left-hover.png)
+	.carousel-control-next:hover
+		.carousel-control-next-icon 
+			background-image: url(../img/arrow-slider-right-hover.png)
+	.carousel-control-prev-icon 
+		background-image: url(../img/arrow-slider.png)
+	.carousel-control-next-icon
+		background-image: url(../img/arrow-slider-right.png)
+	.carousel-control-next-icon, .carousel-control-prev-icon 
+		width: 20px
+		height: 39px
+
+.partners-icons
+	justify-content: space-between
+	align-items: center
+	margin-bottom: 25px
+	height: 61px
+	flex-wrap: nowrap
+	@media only screen and (max-width: 767px)
+		height: auto
+		flex-wrap: wrap
+	.partners-img-wr
+		padding: 0 10px
+		@media only screen and (max-width: 767px)
+			padding: 0px 20px 15px;
+			width: 50%;
+		img
+			width: 100%
+
+.team.main
+	background-color: #f5f5f5
+	margin-bottom: 0
+	padding-top: 50px
+	.section-title
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		margin-left: 15px;
+		margin-bottom: 40px;
+	h6
+		font-size: 18px
+		margin: 15px 0 0
+		padding-left: 5px
+	.team-descr
+		font-size: 14px
+		padding-left: 5px
+	img
+		width: 100%
+		-webkit-box-shadow: 0px 0px 1px 0px #8e8e8e
+		-moz-box-shadow: 0px 0px 1px 0px #8e8e8e
+		box-shadow: 0px 0px 1px 0px #8e8e8e
+	.team-bootom
+		position: relative;
+		margin-top: 25px
+		&:after
+			content: ''
+			background: #f15a40
+			height: 100%
+			width: 50%
+			position: absolute
+			top: 0
+			left: 50%
+			z-index: 1
+			@media only screen and (max-width: 767px)
+				display: none
+		& > div
+			text-align: right
+			img
+				width: 160px
+				vertical-align: top
+				@media only screen and (max-width: 767px)
+					width: 90px
+					height: 90px
+					position: relative;
+					left: -15px;
+		h6, .team-descr
+			padding-left: 0
+		.right
+			background-color: #f15a40
+			color: #fff
+			text-align: left
+			position: relative
+			z-index: 10     
+			@media only screen and (max-width: 767px)
+				margin: 0 15px
+			.team-bootom-img-wr
+				@media only screen and (max-width: 767px)
+					display: flex;
+					margin-bottom: 15px;
+			p
+				line-height: 18px
+				margin-bottom: 20px
+			.quote
+				position: relative
+				padding-left: 50px
+				&:before
+					content: ''
+					position: absolute
+					left: 0
+					top: 4px
+					height: 30px
+					width: 30px
+					background: url(../img/quote.png) 0 0 no-repeat
+
+.reviews
+	background-color: #f5f5f5
+	padding: 0 0 20px
+	margin: 0
+	@media only screen and (max-width: 767px)
+		background-color: #fff
+	.carousel
+		position: relative
+	.carousel-inner
+		overflow: initial;
+	.section-title
+		@media only screen and (max-width: 767px)
+			margin-top: 25px
+			margin-left: 0
+	.carousel-item
+		display: static
+		.bg-dark
+			@media only screen and (max-width: 767px)
+				background-color: #fff !important
+		.carousel-caption
+			position: static
+			display: flex !important
+			align-items: center
+			width: 50%
+			padding-bottom: 30px
+		.carousel-item-top
+			@media only screen and (max-width: 767px)
+				display: -webkit-flex
+				display: -moz-flex
+				display: -ms-flex
+				display: -o-flex
+				display: flex
+			&:before
+				content: ''
+				background: #343a40
+				height: 100%
+				width: 100vw
+				position: absolute
+				top: 0
+				left: -99vw
+				z-index: 1
+		.review-foto
+			min-height: 400px
+			text-align: right;
+			padding-top: 80px;
+			@media only screen and (max-width: 767px)
+				min-height: auto
+				text-align: left
+				padding-top: 0
+			img
+				max-width: 160px
+				@media only screen and (max-width: 767px)
+					max-width: 120px
+					margin-right: 15px
+		.review-name
+			@media only screen and (max-width: 767px)
+				color: #333
+				font-size: 22px
+		.review-wr
+			padding: 0 110px 60px 15px
+			@media only screen and (max-width: 767px)
+				padding: 20px 35px 60px 35px
+			.review-name
+				font-size: 18px
+				margin-bottom: 0;
+			.review-name-descr
+				font-size: 14px
+				margin-bottom: 30px;
+			.section-title
+				margin-left: 0;
+				margin-top: 30px;
+	.carousel-indicators
+		bottom: 25px
+		li
+			background-color: #cbcbcb
+			width: 10px
+			height: 10px
+			border-radius: 50%
+			&.active
+				background-color: #f15a40
+	.carousel-control-prev:hover
+		.carousel-control-prev-icon 
+			background-image: url(../img/arrow-slider-left-hover.png)
+	.carousel-control-next:hover
+		.carousel-control-next-icon 
+			background-image: url(../img/arrow-slider-right-hover.png)
+	.carousel-control-prev-icon 
+		background-image: url(../img/arrow-slider.png)
+	.carousel-control-next-icon
+		background-image: url(../img/arrow-slider-right.png)
+
+	.carousel-control-next-icon, .carousel-control-prev-icon 
+		width: 20px
+		height: 39px
+	.carousel-control-next, .carousel-control-prev
+		width: 5%
+		z-index: 2

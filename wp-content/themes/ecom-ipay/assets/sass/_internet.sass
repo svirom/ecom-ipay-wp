@@ -1,0 +1,166 @@
+.top-internet 
+	background: url(../img/bg-internet.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 350px;
+	position: relative; 
+	color: #fff;
+	font-family: 'Montserrat SemiBold';
+	.page-title
+		font-size: 24px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		line-height: 35px;
+	.header-descr-wr
+		bottom: 60px;
+		position: absolute;
+		.header-descr
+			font-size: 14px;
+			color: #f15a40;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+			margin-bottom: 0px;
+
+
+.internet-wr
+	.internet-top-text
+		line-height: 20px;
+		margin-top: 30px;
+	.pr-0
+		padding-right: 0;
+		line-height: 20px;
+		strong
+			font-size: 20px;
+	.banks-top-img img
+		width: 100%;
+	.partners-icons
+		justify-content: space-between;
+		align-items: center;
+		.partners-img-wr 
+			padding: 10px 15px;
+			img
+				width: 100%;
+	.link-more
+		color: #f15a40 !important;
+		text-decoration: none;
+
+
+.popular-products-wr.products-internet
+	margin-top: 80px;
+	margin-bottom: 0;
+	position: relative
+	&:after
+		content: ''
+		background: #2c363f
+		height: 100%
+		width: 50%
+		position: absolute
+		top: 0
+		left: 50%
+		z-index: 1
+		@media only screen and (max-width: 767px)
+			display: none
+	.popular-products
+		background: #2c363f;
+		background-size: cover;
+		position: relative;
+		padding: 50px 30px;
+		&:before
+			content: '';
+			width: 50px;
+			height: 50px;
+			top: -50px;
+			left: -50px;
+			position: absolute;
+			background: #f15a40;
+			@media only screen and (max-width: 767px)
+				display: none
+		ul
+			list-style-type: none;
+			margin: 0;
+			position: relative
+			z-index: 100
+			li
+				margin-bottom: 40px;
+				display: flex;
+				align-items: center;
+				@media only screen and (max-width: 767px)
+					padding-left: 0
+				.products-img-bg
+					min-width: 110px;
+					@media only screen and (max-width: 767px)
+						min-width: 60px;
+				&:last-child
+					margin-bottom: 10px;
+				&:after
+					display: none
+			span
+				color: #fff;
+				position: relative;
+				margin-left: 10px;
+				padding-bottom: 15px;
+				line-height: 20px;
+				&:after
+					content: '';
+					width: 70px;
+					height: 4px;
+					background-color: #f15a40;
+					position: absolute;
+					left: 0;
+					bottom: 0;
+
+.employees-wr
+	.employees-name
+		display: flex;
+		align-items: center;
+		margin-top: 15px;
+		h5
+			font-size: 18px;
+			margin-bottom: 0;
+		a
+			text-decoration: none;
+		.fb-icon
+			width: 30px;
+			height: 30px;
+			margin-left: 15px;
+			display: block;
+			background: url(../img/facebook-logo.png) 0 0 no-repeat;
+	p
+		line-height: 20px;
+		margin-top: 15px;
+	.employees-img
+		padding-right: 0;
+		background: #f15a40;
+		&:before
+			content: '';
+			background: #f15a40;
+			height: 100%;
+			width: 100vw;
+			position: absolute;
+			left: -100vw;
+			top: 0;
+		.employees-img-bg
+			text-align: right;
+			img
+				width: 120px;
+
+.specialists-wr
+	margin-bottom: 0;
+	.specialists-img-bg
+		background-color: #f15a40;
+		padding: 30px 15px;
+		&:before
+			content: '';
+			background: #f15a40;
+			height: 100%;
+			width: 100vw;
+			position: absolute;
+			left: -100vw;
+			top: 0;
+		img
+			position: relative;
+			right: -150px;
+	p
+		margin: 0;
+		padding: 150px 0;
+		padding-left: 30%;
