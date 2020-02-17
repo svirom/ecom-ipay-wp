@@ -16,16 +16,16 @@ Template Name: Home page
     <div class="row header-icons">
       <div class="col-12 d-visible header-icons-mob">
         <div class="hesder-icons-img-wr">
-          <img src="./img/payment-method.png" alt="">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/payment-method.png" alt="">
         </div>
         <div class="hesder-icons-img-wr">
-          <img src="./img/credit-card.png" alt="">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/credit-card.png" alt="">
         </div>
         <div class="hesder-icons-img-wr">
-          <img src="./img/buy.png" alt="">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/buy.png" alt="">
         </div>
         <div class="hesder-icons-img-wr">
-          <img src="./img/laptop.png" alt="">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/laptop.png" alt="">
         </div>
       </div>
     </div>
@@ -116,25 +116,25 @@ Template Name: Home page
           <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
               <div class="nav-link-img-wr">
-                <img src="./img/bank-tab.png" alt="">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/bank-tab.png" alt="">
               </div>
               <p>Банки и финансовые компании</p>
             </a>
             <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
               <div class="nav-link-img-wr">
-                <img src="./img/commercial-tab.png" alt="">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/commercial-tab.png" alt="">
               </div>
               <p>Торгово-сервисные предприятия</p>
             </a>
             <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
               <div class="nav-link-img-wr">
-                <img src="./img/utilities-tab.png" alt="">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/utilities-tab.png" alt="">
               </div>
               <p>Коммунальные предприятия</p>
             </a>
             <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
               <div class="nav-link-img-wr">
-                <img src="./img/internet-tab.png" alt="">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/internet-tab.png" alt="">
               </div>
               <p>Интернет провайдеры</p>
             </a>
@@ -152,7 +152,7 @@ Template Name: Home page
                   <a href="banks.html" class="more-link">подробнее<i></i></a>
                 </div>
                 <div class="col-lg-6">
-                  <img src="./img/bank-tab-large.png" alt="">
+                  <img src="<?php echo get_template_directory_uri();?>/assets/img/bank-tab-large.png" alt="">
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@ Template Name: Home page
                       <a href="commercial.html" class="more-link">подробнее<i></i></a>
                     </div>
                     <div class="col-lg-6">
-                      <img src="./img/commercial-tab-large.png" alt="">
+                      <img src="<?php echo get_template_directory_uri();?>/assets/img/commercial-tab-large.png" alt="">
                     </div>
                   </div>
             </div>
@@ -180,7 +180,7 @@ Template Name: Home page
                       <a href="utilities.html" class="more-link">подробнее<i></i></a>
                     </div>
                     <div class="col-lg-6">
-                      <img src="./img/utilities-tab-large.png" alt="">
+                      <img src="<?php echo get_template_directory_uri();?>/assets/img/utilities-tab-large.png" alt="">
                     </div>
                   </div>
             </div>
@@ -193,7 +193,7 @@ Template Name: Home page
                       <a href="internet.html" class="more-link">подробнее<i></i></a>
                     </div>
                     <div class="col-lg-6">
-                      <img src="./img/internet-tab-large.png" alt="">
+                      <img src="<?php echo get_template_directory_uri();?>/assets/img/internet-tab-large.png" alt="">
                     </div>
                   </div>
             </div>
@@ -214,28 +214,28 @@ Template Name: Home page
       <ul class="nav nav-tabs services-icons" id="myTab" role="tablist">
         <li class="nav-item services-icons">
           <a class="nav-link active" id="design-tab" data-toggle="tab" href="#design" role="tab" aria-controls="design" aria-selected="true">
-            <img src="./img/design.png" alt="">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/design.png" alt="">
             <p class="services-descr">Дизайн и верстка</p>
             <span class="circle"></span>
           </a>
         </li>
         <li class="nav-item services-icons">
           <a class="nav-link" id="development-tab" data-toggle="tab" href="#development" role="tab" aria-controls="development" aria-selected="false">
-            <img src="./img/development.png" alt="">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/development.png" alt="">
             <p class="services-descr">Разработка и техподдержка</p>
             <span class="circle"></span>
           </a>
         </li>
         <li class="nav-item services-icons">
           <a class="nav-link" id="support-tab" data-toggle="tab" href="#support" role="tab" aria-controls="support" aria-selected="false">
-            <img src="./img/support.png" alt="">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/support.png" alt="">
             <p class="services-descr">Служба клиентской поддержки</p>
             <span class="circle"></span>
           </a>
         </li>
         <li class="nav-item services-icons">
           <a class="nav-link" id="finance-tab" data-toggle="tab" href="#finance" role="tab" aria-controls="finance" aria-selected="false">
-            <img src="./img/planning.png" alt="">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/planning.png" alt="">
             <p class="services-descr">Финансовые расчеты</p>
             <span class="circle"></span>
           </a>
@@ -278,7 +278,7 @@ Template Name: Home page
         <h4 class="section-title">Безопасность</h4>
       </div>
       <div class="col-md-6 col-12 left">  
-          <img src="./img/security.png" alt="">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/security.png" alt="">
       </div>
       <div class="col-md-6 col-12">
           <h4 class="section-title d-hidden">Безопасность</h4>
@@ -288,7 +288,7 @@ Template Name: Home page
               <a href="security-page.html" class="more-link">подробнее<i></i></a>
             </div>
             <div class="col-lg-8 col-12 security-bottom-img">
-              <img src="./img/pci.png" alt=""><img src="./img/cyber.png" alt="" class="cyber">
+              <img src="<?php echo get_template_directory_uri();?>/assets/img/pci.png" alt=""><img src="<?php echo get_template_directory_uri();?>/assets/img/cyber.png" alt="" class="cyber">
             </div>
           </div>
       </div>
@@ -314,46 +314,46 @@ Template Name: Home page
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./img/examples/wogpay.png" alt="...">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/examples/wogpay.png" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="img-wr">
-                    <img src="./img/wog-sm.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/wog-sm.png" alt="">
                   </div>
                   <p>Реализация оплаты в один клик в мобильном приложении WOG</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./img/examples/wogstore.png" alt="...">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/examples/wogstore.png" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="img-wr">
-                    <img src="./img/wog-sm.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/wog-sm.png" alt="">
                   </div>
                   <p>Реализация онлайн-магазина для компании WOG wogstore.ipay.ua</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./img/examples/ukrbilling.png" alt="...">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/examples/ukrbilling.png" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="img-wr">
-                    <img src="./img/ukrbilling1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/ukrbilling1.png" alt="">
                   </div>
                   <p>Организация оплат за комунальные услуги на сайте Ukrbilling кошельком Masterpass</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./img/examples/dtek.png" alt="...">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/examples/dtek.png" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="img-wr">
-                    <img src="./img/d-tec-min.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/d-tec-min.png" alt="">
                   </div>
                   <p>Организация приема коммунальных платежей на сайте ДТЭК. </p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./img/examples/maximum.png" alt="...">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/examples/maximum.png" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <div class="img-wr">
-                    <img src="./img/maximum_min.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/maximum_min.png" alt="">
                   </div>
                   <p>Организация автоматической регулярной оплаты для интернет-провайдера Maximum.</p>
                 </div>
@@ -381,29 +381,29 @@ Template Name: Home page
       </div>
     </div>
     <div class="row partners-icons">
-      <div class="partners-img-wr"><img src="./img/partners/1.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/2.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/3.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/4.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/5.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/6.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/1.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/2.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/3.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/4.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/5.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/6.png" alt=""></div>
     </div>
     <div class="row partners-icons">
-      <div class="partners-img-wr"><img src="./img/partners/7.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/8.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/9.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/10.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/11.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/12.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/7.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/8.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/9.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/10.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/11.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/12.png" alt=""></div>
     </div>
     <div class="row partners-icons">
-      <div class="partners-img-wr"><img src="./img/partners/13.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/14.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/15.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/16.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/17.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/18.png" alt=""></div>
-      <div class="partners-img-wr"><img src="./img/partners/21.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/13.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/14.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/15.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/16.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/17.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/18.png" alt=""></div>
+      <div class="partners-img-wr"><img src="<?php echo get_template_directory_uri();?>/assets/img/partners/21.png" alt=""></div>
     </div>
 
   </div>  
@@ -417,26 +417,26 @@ Template Name: Home page
           <h4 class="section-title">Команда</h4>
       </div>
       <div class="col-md-3">
-        <img src="./img/velikanov.png" alt="" class="d-hidden">
-        <img src="./img/velikanov.png" alt="" class="d-visible">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/velikanov.png" alt="" class="d-hidden">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/velikanov.png" alt="" class="d-visible">
         <h6>Великанов Евгений</h6>
         <p class="team-descr">Директор</p>
       </div>
       <div class="col-md-3">
-        <img src="./img/anton.png" alt="" class="d-hidden">
-        <img src="./img/anton-xs.png" alt="" class="d-visible">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/anton.png" alt="" class="d-hidden">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/anton-xs.png" alt="" class="d-visible">
         <h6>Антон Косторниченко</h6>
         <p class="team-descr">Коммерческий директор</p>
       </div>
       <div class="col-md-3">  
-        <img src="./img/kushnerov.png" alt="" class="d-hidden">
-        <img src="./img/kushnerov.png" alt="" class="d-visible">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/kushnerov.png" alt="" class="d-hidden">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/kushnerov.png" alt="" class="d-visible">
         <h6>Кушнеров Александр</h6>
         <p class="team-descr">ИТ Директор</p>
       </div>
       <div class="col-md-3">
-        <img src="./img/prilipko.png" alt="" class="d-hidden">
-        <img src="./img/prilipko.png" alt="" class="d-visible">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/prilipko.png" alt="" class="d-hidden">
+        <img src="<?php echo get_template_directory_uri();?>/assets/img/prilipko.png" alt="" class="d-visible">
         <h6>Татьяна Прилипко</h6>
         <p class="team-descr">Финансовый директор</p>
       </div>
@@ -446,11 +446,11 @@ Template Name: Home page
     <div class="container">
       <div class="row">
         <div class="col-md-3 pr-0 d-hidden">
-          <img src="./img/anton.png" alt="">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/anton.png" alt="">
         </div>
         <div class="col-md-9 right">
           <div class="team-bootom-img-wr">
-            <img src="./img/anton.png" alt="" class="d-visible">
+            <img src="<?php echo get_template_directory_uri();?>/assets/img/anton.png" alt="" class="d-visible">
             <div class="">
               <h6>Антон Косторниченко</h6>
               <p class="team-descr">Коммерческий директор</p>
@@ -495,7 +495,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/bessubov.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/bessubov.png" alt="">
                   </div>
                   <div class="review-person d-visible">
                       <h5 class="review-name">Александр Беззубов</h5>
@@ -518,7 +518,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/Alexandr-Gaponov.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/Alexandr-Gaponov.png" alt="">
                   </div>
                   <div class="review-person d-visible">
                       <h5 class="review-name">Александр Гапонов</h5>
@@ -541,7 +541,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/elena_dmitrieva.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/elena_dmitrieva.png" alt="">
                   </div>
                   <div class="review-person d-visible">
                       <h5 class="review-name">Елена Дмитриева</h5>
@@ -566,7 +566,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/istomin.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/istomin.png" alt="">
                   </div>
                   <div class="review-person d-visible">
                       <h5 class="review-name">Иван Истомин</h5>
@@ -589,7 +589,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/klimenko.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/klimenko.png" alt="">
                   </div>
                   <div class="review-person d-visible">
                       <h5 class="review-name">Олег Клименко</h5>
@@ -613,7 +613,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/kushil.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/kushil.png" alt="">
                   </div>
                   <div class="review-person d-visible">
                       <h5 class="review-name">Олег Кушель</h5>
@@ -636,7 +636,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/stanislav-moshkin1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/stanislav-moshkin1.png" alt="">
                   </div>
                   <div class="review-person d-visible">
                       <h5 class="review-name">Станислав Мошкин</h5>
@@ -660,7 +660,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/lanet.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/lanet.jpg" alt="">
                   </div>
                   <div class="review-person d-visible">
                     <h5 class="review-name">Дмитрий Ганзенко</h5>
@@ -692,7 +692,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/maximumnet.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/maximumnet.jpg" alt="">
                   </div>
                   <div class="review-person d-visible">
                     <h5 class="review-name">Вадим Алимов</h5>
@@ -716,7 +716,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/triolan.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/triolan.jpg" alt="">
                   </div>
                   <div class="review-person d-visible">
                     <h5 class="review-name">Максим Кравчук</h5>
@@ -740,7 +740,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/information-tehnology.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/information-tehnology.jpg" alt="">
                   </div>
                   <div class="review-person d-visible">
                     <h5 class="review-name">Владимир Коновалов</h5>
@@ -764,7 +764,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/ohmylook.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/ohmylook.jpg" alt="">
                   </div>
                   <div class="review-person d-visible">
                     <h5 class="review-name">Женя Максименко</h5>
@@ -790,7 +790,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/VRtualit.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/VRtualit.jpg" alt="">
                   </div>
                   <div class="review-person d-visible">
                     <h5 class="review-name">Никита Жилкин</h5>
@@ -814,7 +814,7 @@ Template Name: Home page
               <div class="row">
                 <div class="col-md-3 col-12 bg-dark pr-0 carousel-item-top">
                   <div class="review-foto">
-                    <img src="./img/reviews/vodokanal.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/reviews/vodokanal.jpg" alt="">
                   </div>
                   <div class="review-person d-visible">
                     <h5 class="review-name">Клименко Ернест Петрович</h5>

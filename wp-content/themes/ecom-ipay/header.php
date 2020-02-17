@@ -1,24 +1,12 @@
-<?php ?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-M4J2632');</script>
-  <!-- End Google Tag Manager -->
-	<meta charset="UTF-8">
+  <meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Мы предоставляем возможность нашим Партнерам увеличить объемы продаж или обеспечить более высокий уровень оплат платежным картами через Интернет">
-	<title>iPay.ua - Решения для интернет-эквайринга</title>
-  <link rel="icon" type="image/png" href="img/favicon.png">
-	<!-- <link rel="stylesheet" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css"> -->
-
+  <title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
+  <meta name="description" content="<?php bloginfo('description'); ?>">
+  <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri();?>/assets/img/favicon.png">
+	
   <?php if (is_user_logged_in()):?>
     <style>
       .navbar-wr { margin-top: 32px;}
@@ -29,19 +17,15 @@
 
   <?php wp_head(); ?>
 </head>
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4J2632"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<body <?php body_class(); ?>>
 <section class="navbar-wr">
   <div class="container">
     <div class="row">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">
           <span class="logo-descr">Интернет эквайринг</span>
-          <img src="./img/logo.png" alt="" class="d-hidden">
-          <img src="./img/logo-xs.png" alt="" class="d-visible">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="" class="d-hidden">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/logo-xs.png" alt="" class="d-visible">
         </a>
         
         <div class="navbar-mob-wr">
