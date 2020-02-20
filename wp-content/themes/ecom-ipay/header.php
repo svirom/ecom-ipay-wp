@@ -22,7 +22,7 @@
   <div class="container">
     <div class="row">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
           <span class="logo-descr">Интернет эквайринг</span>
           <img src="<?php echo get_template_directory_uri();?>/assets/img/logo.png" alt="" class="d-hidden">
           <img src="<?php echo get_template_directory_uri();?>/assets/img/logo-xs.png" alt="" class="d-visible">
